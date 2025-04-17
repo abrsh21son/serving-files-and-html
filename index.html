@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>middleware</title>
+</head>
+<body>
+    <!-- // location of a file or directory within the file system.
+import path from "path"
+// import.meta.url gives you the URL of the current module.
+// fileURLToPath() converts that URL into a file path.
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+const route = express.Router();
+// file discrete unit of storage that contains data or information
+// file:///D:/FRONT/Node%20Js/backend-practice/maximilian1/routes/admin.js:2
+const __filename = fileURLToPath(import.meta.url)
+// directory==foldername 
+//direname of this  : D:\FRONT\Node Js\backend-practice\maximilian1\routes
+const __dirname = dirname(__filename)
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// Serve static files from the "assets" directory
+app.use(express.static(path.join(__dirname, 'public'))); -->
+
+    <form action="/admin/product" method="POST">
+        <label for="title">Title <br>
+            <input type="text" name="title">
+        </label>
+        <br>
+        <button type="submit">add product</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #0f0f0c; 
+
+}
+
+.main-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.page-title {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.product-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.submit-button {
+    background-color: rgb(6, 4, 27);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #100741; 
+    transform: scale(1.05); 
+}
+
+.submit-button:active {
+    transform: scale(0.95); }
